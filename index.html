@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Redirecting…</title>
+
+  <!-- Redirect instan (fallback kalau JS mati) -->
+  <meta http-equiv="refresh" content="0; url=./index_CHILICOND.html">
+
+  <!-- SEO: arahkan mesin pencari ke halaman utama yang dipakai -->
+  <link rel="canonical" href="./index_CHILICOND.html" />
+  <meta name="robots" content="noindex,follow" />
+</head>
+<body>
+  <p>Redirecting to <a href="./index_CHILICOND.html">index_CHILICOND.html</a>…</p>
+
+  <!-- Redirect dengan query/hash tetap terbawa -->
+  <script>
+    var target = './index_CHILICOND.html' + window.location.search + window.location.hash;
+    window.location.replace(target);
+  </script>
+</body>
+</html>
