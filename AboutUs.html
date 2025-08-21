@@ -228,7 +228,7 @@
           <div class="row align-items-center">
             <div class="col-md-6">
               <h2 class="fw-bold" style="color: #0F75BC;">Lokasi Kami</h2>
-              <p class="lead">PT. CILIKON INDONESIA</p>
+              <p class="lead">PT. CILIKON TATAUDARA INDONESIA</p>
               <p class="fw-light">Jl. Bintara Jaya, Ruko Bintara Permai Blok D No.3, Bintara Jaya.
                 Kec. Bekasi Barat, Kota Bekasi, Jawa Barat 17136.</p>
               <p class="fw-light">Telepon: 021 - 38317603</p>
@@ -255,13 +255,14 @@
         <div class="container">
           <h2 class="fw-bold">Hubungi Kami Sekarang!</h2>
           <p class="lead">Kami siap membantu Anda mewujudkan proyek impian Anda. Jangan ragu untuk menghubungi kami.</p>
+          <a href="contact.html" class="btn btn-lg btn-primary">Hubungi via Email</a>
         </div>
       </section>
     
       <script>
         // JavaScript untuk efek counting up
         const counters = document.querySelectorAll('.number-count');
-        const speed = 200; // Kecepatan animasi (ms)
+        const speed = 500; // Kecepatan animasi (ms)
     
         const animateCount = () => {
           counters.forEach(counter => {
@@ -271,7 +272,7 @@
     
             if (count < target) {
               counter.innerText = Math.ceil(count + increment);
-              setTimeout(animateCount, 1);
+              setTimeout(animateCount, 500);
             } else {
               counter.innerText = target;
             }

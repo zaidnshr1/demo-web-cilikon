@@ -4,6 +4,11 @@ let swiperCardsTop = new Swiper(".card__container:first-child .card__content", {
   loop: true,
   spaceBetween: 30,
   grabCursor: true,
+  speed: 800, // durasi transisi slide (ms)
+  autoplay: {
+    delay: 5000, // jeda antar slide (ms)
+    disableOnInteraction: false,
+  },
 
   pagination: {
     el: ".swiper-pagination-top",
@@ -31,6 +36,11 @@ let swiperCardsBottom = new Swiper(".card__container:last-child .card__content",
   loop: true,
   spaceBetween: 30,
   grabCursor: true,
+  speed: 800, // durasi transisi slide (ms)
+  autoplay: {
+    delay: 5000, // jeda antar slide (ms)
+    disableOnInteraction: false,
+  },
 
   pagination: {
     el: ".swiper-pagination-bottom",
