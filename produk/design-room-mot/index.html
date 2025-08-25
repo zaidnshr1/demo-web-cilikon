@@ -133,66 +133,83 @@
     </style>
 
     <div class="container pt-5 mt-5">
-      <div class="row">
-        <!-- Kolom kiri: Gambar Produk -->
-        <div class="d-flex justify-content-between align-items-center my-3">
-          <a onclick="history.back()" class="btn btn-outline-secondary">
-              Back
-          </a>
-        </div>
-        <div class="col-md-6">
-          <div class="head-image mb-3">
-            <!-- Gambar utama yang akan berubah -->
-            <img id="main-image" src="../../style/assets/mot/mot1.webp" class="main-image img-fluid border rounded shadow-sm" alt="Desain Modular Operating Theatre (MOT) untuk ruang operasi">
-          </div>
-          <div class="d-flex">
-            <!-- Thumbnail Gambar -->
-            <img src="../../style/assets/mot/mot1.webp" alt="Design Room MOT" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/mot/mot1.webp')">
-            <img src="../../style/assets/mot/mot2.webp" alt="Design RooM MOT" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/mot/mot2.webp')">
-            <img src="../../style/assets/mot/mot3.webp" alt="Design Room MOT" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/mot/mot3.webp')">
-            <img src="../../style/assets/mot/mot4.webp" alt="Design ROom MOT" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/mot/mot4.webp')">
-            <!-- <img src="gambar4.jpg" alt="Thumbnail 4" class="thumbnail-img me-2" onclick="changeImage('gambar4.jpg')"> -->
-          </div>
-        </div>
-    
-        <!-- Kolom kanan: Deskripsi Produk -->
-        <div class="col-md-6">
-          <P class="h3">MODULAR OPERATING THEATER (M.O.T)</P>
-          <p class="text-muted fw-bold">INTEGRATED SMART CONTROL SYSTEM</p>
-          <p class="lead fs-6 fw-normal mb-5">The latest innovation from PT. Cilikon Tataudara Indonesia is a system designed for operating rooms. It works seamlessly through a single control panel that integrates key components, including hermetic doors, air conditioning systems, and room lighting, allowing the system to function effectively and efficiently.
-            <br><br>
-            The technologies we integrate are closely aligned with future advancements in technology, where hospitals are expected to provide accessible information technology services through Android or gadget-based platforms. The CCL MOT Smart System features a mechanical workshop equipped with comprehensive tools capable of producing various stainless steel mechanical devices necessary for air conditioning systems and operating rooms.
-          </p>
-          <!-- Harga Produk -->
-          <!-- <h3>Rp 1.500.000</h3> -->
-          
-          <!-- Tombol untuk membeli -->
-           <div>
-            <button class="btn btn-primary btn-custom"><a href="/contact/" style="color: #EFF8FF;">Request a Quote</a></button>
-             <br><br>
-             <a href="../../style/assets/mot/mot-pt-cti-2024.pdf" target="_blank" class="fw-bold">OPEN BROCHURE (Click to view or download)</a>
-             <br>
-           </div>
-        </div>
+  <div class="row">
+    <div class="d-flex justify-content-between align-items-center my-3">
+      <a onclick="history.back()" class="btn btn-outline-secondary">Back</a>
+    </div>
+
+    <div class="col-md-6">
+      <div class="head-image mb-3">
+        <img id="main-image" src="../../style/assets/mot/mot1.webp"
+             class="main-image img-fluid border rounded shadow-sm"
+             alt="Modular Operating Theater (MOT) dengan smart control untuk ruang operasi">
+      </div>
+      <div class="d-flex">
+        <img src="../../style/assets/mot/mot1.webp" alt="Tampilan ruangan MOT - panel kontrol"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/mot/mot1.webp')">
+        <img src="../../style/assets/mot/mot2.webp" alt="Modular wall & ceiling MOT"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/mot/mot2.webp')">
+        <img src="../../style/assets/mot/mot3.webp" alt="Hermetic door ruang operasi MOT"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/mot/mot3.webp')">
+        <img src="../../style/assets/mot/mot4.webp" alt="Integrasi tata udara & lighting di MOT"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/mot/mot4.webp')">
       </div>
     </div>
 
-    <script>
-      function changeImage(imageSrc) {
-        document.getElementById('main-image').src = imageSrc;
-      }
-    </script>
-    <div class="container mb-5">
-      <div class="row text-center">
-          <p class="fw-bold fs-5 pt-5 pb-3">DESIGN ROOM MOT DETAILS</p>
-          <div class="col-md-6">
-              <img src="../../style/assets/mot/mot-details.webp" alt="Fan Filter Unit" class="img-fluid">
-          </div>
-          <div class="col-md-6">
-              <embed src="../../style/assets/mot/mot-pt-cti-2024.pdf" width="100%" height="700vh" type="application/pdf">
-          </div>
+    <div class="col-md-6">
+      <p class="h3">MODULAR OPERATING THEATER (M.O.T)</p>
+      <p class="text-muted fw-bold">INTEGRATED SMART CONTROL SYSTEM</p>
+
+      <p class="lead fs-6 fw-normal mb-3">
+        <strong>MOT</strong> kami adalah sistem ruang operasi modular dengan <em>smart control panel</em>
+        yang mengintegrasikan <strong>hermetic door</strong>, sistem <strong>HVAC/AC</strong>, pencahayaan bedah,
+        dan monitoring lingkungan dalam satu antarmuka. Desain panel dinding & plafon modular
+        memudahkan instalasi cepat, perawatan, dan menjaga higienitas.
+      </p>
+
+      <ul class="mb-3">
+        <li><strong>Smart HMI</strong> untuk kontrol suhu, kelembapan, tekanan diferensial, dan lampu operasi.</li>
+        <li><strong>Hermetic sliding door</strong> untuk mencegah kebocoran udara & mendukung kontrol infeksi.</li>
+        <li><strong>Integrasi HVAC</strong> siap LAF/HEPA, alarm filter & trend data (opsional data logging).</li>
+        <li><strong>Modular wall cladding</strong> antibakteri, mudah dibersihkan, tahan bahan kimia.</li>
+        <li><strong>Integrasi sistem</strong> (opsional): BMS/SCADA, nurse call, interkom, kamera, UPS.</li>
+      </ul>
+
+      <p class="mb-4">
+        Aplikasi: <strong>Ruang Operasi, ICU/ICCU, Ruang Prosedur, Hybrid OR</strong>.
+        Fokus pada keselamatan pasien, ergonomi tim bedah, dan kepatuhan standar kebersihan.
+      </p>
+
+      <div>
+        <button class="btn btn-primary btn-custom"><a href="/contact/" style="color:#EFF8FF;">Request a Quote</a></button>
+        <br><br>
+        <a href="../../style/assets/mot/mot-pt-cti-2024.pdf" target="_blank" class="fw-bold">OPEN BROCHURE (Click to view or download)</a>
+        <br>
       </div>
     </div>
+  </div>
+</div>
+
+<script>
+  function changeImage(imageSrc) { document.getElementById('main-image').src = imageSrc; }
+</script>
+
+<div class="container mb-5">
+  <div class="row text-center">
+    <p class="fw-bold fs-5 pt-5 pb-3">DESIGN ROOM MOT DETAILS</p>
+    <div class="col-md-6">
+      <img src="../../style/assets/mot/mot-details.webp"
+           alt="Detail modul dinding, plafon, dan kontrol MOT" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <embed src="../../style/assets/mot/mot-pt-cti-2024.pdf" width="100%" height="700vh" type="application/pdf">
+    </div>
+  </div>
+</div>
     <div class="gradient-divider"></div>
 
 <!-- ======================================================================= FOOTER -->

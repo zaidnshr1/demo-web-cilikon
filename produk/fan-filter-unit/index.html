@@ -133,59 +133,82 @@
       </style>
 
       <div class="container pt-5 mt-5">
-        <div class="row">
-          <!-- Kolom kiri: Gambar Produk -->
-          <div class="d-flex justify-content-between align-items-center my-3">
-            <a onclick="history.back()" class="btn btn-outline-secondary">
-                Back
-            </a>
-          </div>
-          <div class="col-md-6">
-            <div class="head-image mb-3">
-              <!-- Gambar utama yang akan berubah -->
-              <img id="main-image" src="../../style/assets/fan-filter-unit/product-fan-filter-unit.webp" class="main-image img-fluid border rounded shadow-sm" alt="Fan Filter Unit (FFU) untuk cleanroom">
-            </div>
-            <div class="d-flex">
-              <!-- Thumbnail Gambar -->
-              <img src="../../style/assets/fan-filter-unit/product-fan-filter-unit.webp" alt="Fan Filter" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/fan-filter-unit/product-fan-filter-unit.webp')">
-              <img src="../../style/assets/fan-filter-unit/fan-filter-unit1.webp" alt="Fan Filter" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/fan-filter-unit/fan-filter-unit1.webp')">
-              <img src="../../style/assets/fan-filter-unit/fan-filter-unit2.webp" alt="Fan Filter" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/fan-filter-unit/fan-filter-unit2.webp')">
-            </div>
-          </div>
-          <!-- Kolom kanan: Deskripsi Produk -->
-          <div class="col-md-6">
-            <P class="h2 fw-bolder">EXHAUST FAN FILTER UNIT</P>
-            <p class="text-muted fw-bold">FOR CRITICAL ENVIRONMENT</p>
-            <p class="lead fs-6 fw-normal mb-5">Designeed specifically for use in cleanrooms, pharmacies, pharmaceutical manufacturing facilities and laboratories. Airflow Capacity 500, 1000 and 1500 CFM with pre filter, hepa filter and UV lamp.
-              <br><br>
-            </p>
-            <div>
-              <button class="btn btn-primary btn-custom"><a href="/contact/" style="color: #EFF8FF;" >Request a Quote</a></button>
-              <br><br>
-              <a href="../../style/assets/fan-filter-unit/brosur-pt-cti-effu-500-1000-1500-cfm.pdf" target="_blank" class="fw-bold">OPEN BROCHURE (Click to view or download)</a>
-              <br>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div class="row">
+    <div class="d-flex justify-content-between align-items-center my-3">
+      <a onclick="history.back()" class="btn btn-outline-secondary">Back</a>
+    </div>
 
-      <script>
-        function changeImage(imageSrc) {
-          document.getElementById('main-image').src = imageSrc;
-        }
-      </script>
-
-      <div class="container mb-5">
-          <div class="row text-center">
-              <p class="fw-bold fs-5 pt-5 pb-3">FAN FILTER UNIT DETAILS</p>
-              <div class="col-md-6">
-                  <img src="../../style/assets/fan-filter-unit/fan-filter_details.webp" alt="Fan Filter Unit" class="img-fluid">
-              </div>
-              <div class="col-md-6">
-                  <embed src="../../style/assets/fan-filter-unit/brosur-pt-cti-effu-500-1000-1500-cfm.pdf" width="100%" height="700vh" type="application/pdf">
-              </div>
-          </div>
+    <div class="col-md-6">
+      <div class="head-image mb-3">
+        <img id="main-image" src="../../style/assets/fan-filter-unit/product-fan-filter-unit.webp"
+             class="main-image img-fluid border rounded shadow-sm"
+             alt="Exhaust Fan Filter Unit (EFFU) untuk cleanroom dan laboratorium">
       </div>
+      <div class="d-flex">
+        <img src="../../style/assets/fan-filter-unit/product-fan-filter-unit.webp"
+             alt="EFFU tampak depan" class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/fan-filter-unit/product-fan-filter-unit.webp')">
+        <img src="../../style/assets/fan-filter-unit/fan-filter-unit1.webp"
+             alt="EFFU komponen internal" class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/fan-filter-unit/fan-filter-unit1.webp')">
+        <img src="../../style/assets/fan-filter-unit/fan-filter-unit2.webp"
+             alt="EFFU instalasi di area proses" class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/fan-filter-unit/fan-filter-unit2.webp')">
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <p class="h2 fw-bolder">EXHAUST FAN FILTER UNIT</p>
+      <p class="text-muted fw-bold">FOR CRITICAL ENVIRONMENT</p>
+
+      <p class="lead fs-6 fw-normal mb-3">
+        <strong>EFFU</strong> dirancang untuk exhaust/ekshaust udara terkontrol pada <em>cleanroom</em>, farmasi,
+        fasilitas produksi obat, dan laboratorium. Kapasitas aliran udara <strong>500 / 1000 / 1500 CFM</strong> dengan
+        tahapan filtrasi <strong>pre-filter + HEPA</strong> dan opsi <strong>UV lamp</strong> membantu menjaga
+        kebersihan udara buang serta melindungi area sekitar.
+      </p>
+
+      <ul class="mb-3">
+        <li><strong>Filtrasi efisien</strong> (opsi rating HEPA tinggi) untuk partikel halus & bioaerosol.</li>
+        <li><strong>Desain kedap</strong> meminimalkan kebocoran; perawatan & penggantian filter mudah.</li>
+        <li><strong>Operasi stabil</strong> dengan opsi pengaturan kecepatan kipas & monitoring diferensial.</li>
+        <li><strong>Konstruksi kokoh</strong> cocok untuk operasi kontinyu di lingkungan kritikal.</li>
+        <li><strong>Instalasi fleksibel</strong> dinding/ceiling sesuai layout fasilitas.</li>
+      </ul>
+
+      <p class="mb-4">
+        Cocok untuk: <strong>cleanroom ISO, ruang penimbangan, biosafety area, laboratorium R&D, produksi farmasi</strong>.
+      </p>
+
+      <div>
+        <button class="btn btn-primary btn-custom"><a href="/contact/" style="color:#EFF8FF;">Request a Quote</a></button>
+        <br><br>
+        <a href="../../style/assets/fan-filter-unit/brosur-pt-cti-effu-500-1000-1500-cfm.pdf" target="_blank" class="fw-bold">
+          OPEN BROCHURE (Click to view or download)
+        </a>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function changeImage(imageSrc) { document.getElementById('main-image').src = imageSrc; }
+</script>
+
+<div class="container mb-5">
+  <div class="row text-center">
+    <p class="fw-bold fs-5 pt-5 pb-3">FAN FILTER UNIT DETAILS</p>
+    <div class="col-md-6">
+      <img src="../../style/assets/fan-filter-unit/fan-filter_details.webp"
+           alt="Detail EFFU: jalur udara, filter, dan housing" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <embed src="../../style/assets/fan-filter-unit/brosur-pt-cti-effu-500-1000-1500-cfm.pdf"
+             width="100%" height="700vh" type="application/pdf">
+    </div>
+  </div>
+</div>
     <div class="gradient-divider"></div>
 
 <!-- ======================================================================= FOOTER -->

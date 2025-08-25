@@ -134,64 +134,84 @@
     </style>
 
     <div class="container pt-5 mt-5">
-      <div class="row">
-        <!-- Kolom kiri: Gambar Produk -->
-        <div class="d-flex justify-content-between align-items-center my-3">
-          <a onclick="history.back()" class="btn btn-outline-secondary">
-              Back
-          </a>
-        </div>
-        <div class="col-md-6">
-          <div class="head-image mb-3">
-            <!-- Gambar utama yang akan berubah -->
-            <img id="main-image" src="../../style/assets/ldt-operating-table/ldt-100-operating-table.webp" class="main-image img-fluid border rounded shadow-sm" alt="LDT Operating Table">
-          </div>
-          <div class="d-flex">
-            <!-- Thumbnail Gambar -->
-            <img src="../../style/assets/ldt-operating-table/ldt-100-operating-table.webp" alt="LDT Operating Table" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/ldt-operating-table/ldt-100-operating-table.webp')">
-            <img src="../../style/assets/ldt-operating-table/ldt-100-operating-table1.webp" alt="LDT Operating Table" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/ldt-operating-table/ldt-100-operating-table1.webp')">
-            <img src="../../style/assets/ldt-operating-table/ldt-100-operating-table2.webp" alt="LDT Operating Table" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/LDT_Operating_Table/LDT 100 Operating Table2.webp')">
-          </div>
-        </div>
-    
-        <!-- Kolom kanan: Deskripsi Produk -->
-        <div class="col-md-6">
-          <P class="h2 fw-bolder">LDT 100 Operating Table</P>
-          <p class="text-muted fw-bold"></p>
-          <p class="lead fs-6 fw-normal mb-5">This operation bed features a powerful and reliable electric push rod, sourced from Taiwan-imported TiMOTION or German-imported STABILUS, ensuring high output power. Constructed with Medical Grade 304# stainless steel, the bed's surface is matte-processed for a modern look and easy cleaning.
-            <br><br>
-            It is equipped with a full micro electric control system that operates quietly, with overload protection for enhanced safety. Additionally, the entire operating table can move forward and backward, allowing for optimal positioning during C-arm and X-ray radiography.
-          </p>
-          <!-- Harga Produk -->
-          <!-- <h3>Rp 1.500.000</h3> -->
-          
-          <!-- Tombol untuk membeli -->
-           <div>
-            <button class="btn btn-primary btn-custom"><a href="/contact/" style="color: #EFF8FF;">Request a Quote</a></button>
-             <br><br>
-             <a href="../../style/assets/ldt-operating-table/cti-ldt-100-operating-table.pdf" target="_blank" class="fw-bold">OPEN BROCHURE (Click to view or download)</a>
-             <br>
-           </div>
-        </div>
+  <div class="row">
+    <div class="d-flex justify-content-between align-items-center my-3">
+      <a onclick="history.back()" class="btn btn-outline-secondary">Back</a>
+    </div>
+
+    <div class="col-md-6">
+      <div class="head-image mb-3">
+        <img id="main-image" src="../../style/assets/ldt-operating-table/ldt-100-operating-table.webp"
+             class="main-image img-fluid border rounded shadow-sm"
+             alt="Meja Operasi LDT 100 dengan kontrol elektrik">
+      </div>
+      <div class="d-flex">
+        <img src="../../style/assets/ldt-operating-table/ldt-100-operating-table.webp"
+             alt="Operating Table LDT 100 tampak depan"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/ldt-operating-table/ldt-100-operating-table.webp')">
+        <img src="../../style/assets/ldt-operating-table/ldt-100-operating-table1.webp"
+             alt="Operating Table LDT 100 detail samping"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/ldt-operating-table/ldt-100-operating-table1.webp')">
+        <img src="../../style/assets/ldt-operating-table/ldt-100-operating-table2.webp"
+             alt="Operating Table LDT 100 untuk C-arm & X-ray"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/ldt-operating-table/ldt-100-operating-table2.webp')">
       </div>
     </div>
 
-    <script>
-      function changeImage(imageSrc) {
-        document.getElementById('main-image').src = imageSrc;
-      }
-    </script>
-    <div class="container mb-5">
-      <div class="row text-center">
-          <p class="fw-bold fs-5 pt-5 pb-3">PRODUCT DETAILS</p>
-          <div class="col-md-6">
-              <img src="../../style/assets/ldt-operating-table/ldt-100-operating-table-details.webp" alt="Fan Filter Unit" class="img-fluid">
-          </div>
-          <div class="col-md-6">
-              <embed src="../../style/assets/ldt-operating-table/cti-ldt-100-operating-table.pdf" width="100%" height="700vh" type="application/pdf">
-          </div>
+    <div class="col-md-6">
+      <p class="h2 fw-bolder">LDT 100 Operating Table</p>
+      <p class="text-muted fw-bold">ELECTRIC SURGICAL TABLE</p>
+
+      <p class="lead fs-6 fw-normal mb-3">
+        <strong>LDT 100</strong> adalah meja operasi elektrik berbahan <strong>stainless steel 304# medical grade</strong>,
+        dilengkapi <em>push rod</em> elektrik impor Taiwan TiMOTION / Jerman STABILUS
+        untuk daya angkat tinggi & keandalan jangka panjang.
+      </p>
+
+      <ul class="mb-3">
+        <li><strong>Permukaan matte</strong>, higienis, modern, mudah dibersihkan.</li>
+        <li><strong>Micro electric control system</strong> senyap dengan proteksi overload.</li>
+        <li><strong>Mobilitas maju-mundur</strong> untuk <strong>C-arm & X-ray radiography</strong>.</li>
+        <li><strong>Kapasitas beban tinggi</strong> cocok untuk berbagai prosedur operasi.</li>
+        <li><strong>Desain ergonomis</strong> memudahkan posisi optimal pasien & tim medis.</li>
+      </ul>
+
+      <p class="mb-4">
+        Cocok untuk: <strong>RS Umum, Klinik Bedah, ICU/ICCU, Prosedur Radiologi</strong>.
+      </p>
+
+      <div>
+        <button class="btn btn-primary btn-custom"><a href="/contact/" style="color:#EFF8FF;">Request a Quote</a></button>
+        <br><br>
+        <a href="../../style/assets/ldt-operating-table/cti-ldt-100-operating-table.pdf" target="_blank" class="fw-bold">
+          OPEN BROCHURE (Click to view or download)
+        </a>
       </div>
     </div>
+  </div>
+</div>
+
+<script>
+  function changeImage(imageSrc) { document.getElementById('main-image').src = imageSrc; }
+</script>
+
+<div class="container mb-5">
+  <div class="row text-center">
+    <p class="fw-bold fs-5 pt-5 pb-3">PRODUCT DETAILS</p>
+    <div class="col-md-6">
+      <img src="../../style/assets/ldt-operating-table/ldt-100-operating-table-details.webp"
+           alt="Detail LDT 100 Operating Table dengan stainless steel dan sistem elektrik"
+           class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <embed src="../../style/assets/ldt-operating-table/cti-ldt-100-operating-table.pdf" width="100%" height="700vh" type="application/pdf">
+    </div>
+  </div>
+</div>
+
     <div class="gradient-divider"></div>
 
 <!-- ======================================================================= FOOTER -->

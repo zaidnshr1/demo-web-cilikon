@@ -133,64 +133,78 @@
     </style>
 
     <div class="container pt-5 mt-5">
-      <div class="row">
-        <!-- Kolom kiri: Gambar Produk -->
-        <div class="d-flex justify-content-between align-items-center my-3">
-          <a onclick="history.back()" class="btn btn-outline-secondary">
-              Back
-          </a>
-        </div>
-        <div class="col-md-6">
-          <div class="head-image mb-3">
-            <!-- Gambar utama yang akan berubah -->
-            <img id="main-image" src="../../style/assets/passbox/passbox1.webp" class="main-image img-fluid border rounded shadow-sm" alt="Pass Box Cleanroom dengan interlock & filter HEPA">
-          </div>
-          <div class="d-flex">
-            <!-- Thumbnail Gambar -->
-            <img src="../../style/assets/passbox/passbox1.webp" alt="PassBox" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/passbox/passbox1.webp')">
-            <img src="../../style/assets/passbox/passbox2.webp" alt="PassBox" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/passbox/passbox2.webp')">
-            <img src="../../style/assets/passbox/passbox3.webp" alt="PassBox" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/passbox/passbox3.webp')">
-          </div>
-        </div>
-    
-        <!-- Kolom kanan: Deskripsi Produk -->
-        <div class="col-md-6">
-          <h2>PASSBOX</h2>
-          <p class="text-muted fw-bold">ELECTRICAL INTERLOCK FOR CRITICAL ENVIRONMENT</p>
-          <p class="lead fs-6 fw-normal mb-5">Pass Box is supporting equipment for clean room and pharmaceutical manufacturing facilities and laboratories it can be used for passing the wares between clean room to clean room or clean room to non-clean rooms door and minimize the contamination extent of clean area.
-            <br><br>
-            Body of the cases is made of stainless steel grade 304 by folding and welding and its surface is treated with the interlock function, <span class="fw-bold">electrical interlock.</span>
-          </p>
-          <!-- Harga Produk -->
-          <!-- <h3>Rp 1.500.000</h3> -->
-          
-          <!-- Tombol untuk membeli -->
-           <div>
-            <button class="btn btn-primary btn-custom"><a href="/contact/" style="color: #EFF8FF;">Request a Quote</a></button>
-             <br><br>
-             <a href="../../style/assets/passbox/brosur-pt-cti-passbox.pdf" target="_blank" class="fw-bold">OPEN BROCHURE (Click to view or download)</a>
-             <br>
-           </div>
-        </div>
+  <div class="row">
+    <div class="d-flex justify-content-between align-items-center my-3">
+      <a onclick="history.back()" class="btn btn-outline-secondary">Back</a>
+    </div>
+
+    <div class="col-md-6">
+      <div class="head-image mb-3">
+        <img id="main-image" src="../../style/assets/passbox/passbox1.webp"
+             class="main-image img-fluid border rounded shadow-sm"
+             alt="Pass Box Cleanroom interlock stainless steel dengan HEPA filter">
+      </div>
+      <div class="d-flex">
+        <img src="../../style/assets/passbox/passbox1.webp" alt="Pass Box Cleanroom tampak depan"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/passbox/passbox1.webp')">
+        <img src="../../style/assets/passbox/passbox2.webp" alt="Pass Box tampak samping"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/passbox/passbox2.webp')">
+        <img src="../../style/assets/passbox/passbox3.webp" alt="Pass Box detail pintu"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/passbox/passbox3.webp')">
       </div>
     </div>
 
-    <script>
-      function changeImage(imageSrc) {
-        document.getElementById('main-image').src = imageSrc;
-      }
-    </script>
-    <div class="container mb-5">
-      <div class="row text-center">
-          <p class="fw-bold fs-5 pt-5 pb-3">PRODUCT DETAILS</p>
-          <div class="col-md-6">
-              <img src="../../style/assets/passbox/details-passbox.webp" alt="Fan Filter Unit" class="img-fluid">
-          </div>
-          <div class="col-md-6">
-              <embed src="../../style/assets/passbox/brosur-pt-cti-passbox.pdf" width="100%" height="700vh" type="application/pdf">
-          </div>
+    <div class="col-md-6">
+      <h2>PASS BOX</h2>
+      <p class="text-muted fw-bold">ELECTRICAL INTERLOCK FOR CRITICAL ENVIRONMENT</p>
+
+      <p class="lead fs-6 fw-normal mb-3">
+        <strong>Pass Box</strong> adalah peralatan pendukung <em>cleanroom</em> untuk memindahkan material
+        antar ruang bersih (clean-to-clean) atau dari non-clean room ke cleanroom dengan
+        meminimalkan risiko kontaminasi.  
+        Dibuat dari <strong>stainless steel 304</strong> dengan konstruksi las kedap udara dan
+        dilengkapi <strong>electrical interlock system</strong> untuk mencegah pintu terbuka bersamaan.
+      </p>
+
+      <ul class="mb-3">
+        <li><strong>Interlock elektrik</strong> menjaga tekanan & mencegah aliran udara silang.</li>
+        <li><strong>Finishing higienis</strong>, permukaan halus mudah dibersihkan.</li>
+        <li><strong>Opsional HEPA filter</strong> untuk tambahan proteksi partikel.</li>
+        <li><strong>Konstruksi kokoh</strong> dengan pintu kaca tempered (opsional).</li>
+        <li><strong>Aplikasi luas</strong> untuk farmasi, laboratorium, dan fasilitas bioteknologi.</li>
+      </ul>
+
+      <div>
+        <button class="btn btn-primary btn-custom"><a href="/contact/" style="color:#EFF8FF;">Request a Quote</a></button>
+        <br><br>
+        <a href="../../style/assets/passbox/brosur-pt-cti-passbox.pdf" target="_blank" class="fw-bold">
+          OPEN BROCHURE (Click to view or download)
+        </a>
       </div>
     </div>
+  </div>
+</div>
+
+<script>
+  function changeImage(imageSrc) { document.getElementById('main-image').src = imageSrc; }
+</script>
+
+<div class="container mb-5">
+  <div class="row text-center">
+    <p class="fw-bold fs-5 pt-5 pb-3">PRODUCT DETAILS</p>
+    <div class="col-md-6">
+      <img src="../../style/assets/passbox/details-passbox.webp"
+           alt="Detail konstruksi Pass Box interlock stainless steel"
+           class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <embed src="../../style/assets/passbox/brosur-pt-cti-passbox.pdf" width="100%" height="700vh" type="application/pdf">
+    </div>
+  </div>
+</div>
     <div class="gradient-divider"></div>
 
 <!-- ======================================================================= FOOTER -->

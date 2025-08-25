@@ -133,108 +133,83 @@
     </style>
 
     <div class="container pt-5 mt-5">
-      <div class="row">
-        <!-- Kolom kiri: Gambar Produk -->
-        <div class="d-flex justify-content-between align-items-center my-3">
-          <a onclick="history.back()" class="btn btn-outline-secondary">
-            Back
-          </a>
-        </div>
-        <div class="col-md-6">
-          <div class="head-image mb-3">
-            <!-- Gambar utama yang akan berubah -->
-            <img
-              id="main-image"
-              src="../../style/assets/smart-control/smart-control.webp"
-              class="main-image img-fluid border rounded shadow-sm"
-              alt="Smart Control Panel untuk integrasi Cleanroom & HVAC"
-            />
-          </div>
-          <div class="d-flex">
-            <!-- Thumbnail Gambar -->
-            <img
-              src="../../style/assets/smart-control/smart-control.webp"
-              alt="Smart Control"
-              class="thumbnail-img me-2 border rounded shadow-sm"
-              onclick="changeImage('../../style/assets/smart-control/smart-control.webp')"
-            />
-            <img
-              src="../../style/assets/smart-control/smart-control1.webp"
-              alt="Smart Control"
-              class="thumbnail-img me-2 border rounded shadow-sm"
-              onclick="changeImage('../../style/assets/smart-control/smart-control1.webp')"
-            />
-            <img
-              src="../../style/assets/smart-control/smart-control2.webp"
-              alt="Smart Control"
-              class="thumbnail-img me-2 border rounded shadow-sm"
-              onclick="changeImage('../../style/assets/smart-control/smart-control2.webp')"
-            />
-            <img
-              src="../../style/assets/smart-control/smart-control3.webp"
-              alt="Smart Control"
-              class="thumbnail-img me-2 border rounded shadow-sm"
-              onclick="changeImage('../../style/assets/smart-control/smart-control3.webp')"
-            />
-            <!-- <img src="gambar4.jpg" alt="Thumbnail 4" class="thumbnail-img me-2" onclick="changeImage('gambar4.jpg')"> -->
-          </div>
-        </div>
+  <div class="row">
+    <div class="d-flex justify-content-between align-items-center my-3">
+      <a onclick="history.back()" class="btn btn-outline-secondary">Back</a>
+    </div>
 
-        <!-- Kolom kanan: Deskripsi Produk -->
-        <div class="col-md-6">
-          <p class="h2 fw-bolder">SMART CONTROL</p>
-          <!-- <p class="text-muted fw-bold">FOR CRITICAL ENVIRONMENT</p> -->
-          <p class="lead fs-6 fw-normal mb-5">
-            Customized Control & Monitoring for HVAC, Lights, Power for Room
-            (MOT, OK, and other rooms), HVAC units, Android Feature. Support 3rd
-            Party Controller (MQTT, BMS, DCS, SCADA & others) <br /><br />
-            LED Touchscreen 7,10, & 24 inch, equipped with Clock, Countdown, AC
-            control (Full & Eco Mode) Setpoint Temperature, Humidity,
-            monitoring, trendlog, reporting & lights
-          </p>
-          <!-- Harga Produk -->
-          <!-- <h3>Rp 1.500.000</h3> -->
-
-          <!-- Tombol untuk membeli -->
-          <div>
-            <button class="btn btn-primary btn-custom">
-              <a href="/contact/" style="color: #eff8ff">Request a Quote</a>
-            </button>
-            <br /><br />
-            <a href="../../style/assets/smart-control/brosur-ctoc.pdf" class="fw-bold"
-              >OPEN BROCHURE (Click to view or download)</a
-            >
-            <br />
-          </div>
-        </div>
+    <div class="col-md-6">
+      <div class="head-image mb-3">
+        <img id="main-image" src="../../style/assets/smart-control/smart-control.webp"
+             class="main-image img-fluid border rounded shadow-sm"
+             alt="Smart Control Panel integrasi HVAC, lighting, power, monitoring">
+      </div>
+      <div class="d-flex">
+        <img src="../../style/assets/smart-control/smart-control.webp" alt="Smart Control Panel tampak depan"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/smart-control/smart-control.webp')">
+        <img src="../../style/assets/smart-control/smart-control1.webp" alt="Smart Control detail layar"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/smart-control/smart-control1.webp')">
+        <img src="../../style/assets/smart-control/smart-control2.webp" alt="Smart Control integrasi HVAC"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/smart-control/smart-control2.webp')">
+        <img src="../../style/assets/smart-control/smart-control3.webp" alt="Smart Control integrasi lighting"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/smart-control/smart-control3.webp')">
       </div>
     </div>
 
-    <script>
-      function changeImage(imageSrc) {
-        document.getElementById("main-image").src = imageSrc;
-      }
-    </script>
-    <div class="container mb-5">
-      <div class="row text-center">
-        <p class="fw-bold fs-5 pt-5 pb-3">PRODUCT DETAILS</p>
-        <div class="col-md-6">
-          <img
-            src="../../style/assets/smart-control/smart-control-details.webp"
-            alt="Fan Filter Unit"
-            class="img-fluid"
-          />
-        </div>
-        <div class="col-md-6">
-          <embed
-            src="../../style/assets/smart-control/brosur-ctoc.pdf"
-            width="100%"
-            height="700vh"
-            type="application/pdf"
-          />
-        </div>
+    <div class="col-md-6">
+      <p class="h2 fw-bolder">SMART CONTROL</p>
+      <p class="text-muted fw-bold">INTEGRATED ROOM CONTROL SYSTEM</p>
+
+      <p class="lead fs-6 fw-normal mb-3">
+        <strong>Smart Control Panel</strong> adalah sistem kontrol & monitoring terintegrasi
+        untuk <strong>HVAC, pencahayaan, power supply</strong>, serta fitur ruang kritikal (MOT, OR, ICU).
+        Mendukung integrasi dengan <strong>BMS, SCADA, DCS, MQTT</strong> dan platform pihak ketiga.
+      </p>
+
+      <ul class="mb-3">
+        <li><strong>Touchscreen LED 7”, 10”, 24”</strong> dengan UI ramah pengguna.</li>
+        <li><strong>Kontrol AC</strong> (Full & Eco Mode) dengan setpoint suhu & kelembapan.</li>
+        <li><strong>Monitoring trendlog</strong> & reporting realtime.</li>
+        <li><strong>Countdown timer</strong> & digital clock terintegrasi.</li>
+        <li><strong>Ekspansi fleksibel</strong> untuk sistem lighting, alarm, dan akses kontrol.</li>
+      </ul>
+
+      <p class="mb-4">
+        Cocok untuk: <strong>Ruang Operasi, MOT, Laboratorium, Data Center, ICU</strong>.
+      </p>
+
+      <div>
+        <button class="btn btn-primary btn-custom"><a href="/contact/" style="color:#EFF8FF;">Request a Quote</a></button>
+        <br><br>
+        <a href="../../style/assets/smart-control/brosur-ctoc.pdf" class="fw-bold" target="_blank">
+          OPEN BROCHURE (Click to view or download)
+        </a>
       </div>
     </div>
+  </div>
+</div>
+
+<script>
+  function changeImage(imageSrc) { document.getElementById('main-image').src = imageSrc; }
+</script>
+
+<div class="container mb-5">
+  <div class="row text-center">
+    <p class="fw-bold fs-5 pt-5 pb-3">PRODUCT DETAILS</p>
+    <div class="col-md-6">
+      <img src="../../style/assets/smart-control/smart-control-details.webp"
+           alt="Detail Smart Control Panel integrasi monitoring ruang kritikal"
+           class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <embed src="../../style/assets/smart-control/brosur-ctoc.pdf" width="100%" height="700vh" type="application/pdf">
+    </div>
+  </div>
+</div>
     <div class="gradient-divider"></div>
 
     <!-- ======================================================================= FOOTER -->

@@ -133,63 +133,78 @@
     </style>
 
     <div class="container pt-5 mt-5">
-      <div class="row">
-        <!-- Kolom kiri: Gambar Produk -->
-        <div class="d-flex justify-content-between align-items-center my-3">
-          <a onclick="history.back()" class="btn btn-outline-secondary">
-              Back
-          </a>
-        </div>
-        <div class="col-md-6">
-          <div class="head-image mb-3">
-            <!-- Gambar utama yang akan berubah -->
-            <img id="main-image" src="../../style/assets/laminar/laminar.webp" class="main-image img-fluid border rounded shadow-sm" alt="Laminar Air Flow (LAF) berfilter HEPA untuk area kerja steril">
-          </div>
-          <div class="d-flex">
-            <!-- Thumbnail Gambar -->
-            <img src="../../style/assets/laminar/laminar.webp" alt="Thumbnail 1" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/laminar/laminar.webp')">
-            <img src="../../style/assets/laminar/laminar2.webp" alt="Thumbnail 2" class="thumbnail-img me-2 border rounded shadow-sm" onclick="changeImage('../../style/assets/laminar/laminar2.webp')">
-          </div>
-        </div>
-    
-        <!-- Kolom kanan: Deskripsi Produk -->
-        <div class="col-md-6">
-          <P class="h2 fw-bolder">LAMINAR FLOW DIFFUSER WITH HEPA FILTER</P>
-          <p class="text-muted fw-bold">FOR CRITICAL ENVIRONMENT</p>
-          <p class="lead fs-6 fw-normal mb-5">The Laminar Flow Diffuser with HEPA filter has been designed for modern operating roms and other clean spaces. controling particle concentration with a room by providing undirectional laminar airflow with low initial face velocity, supplying clean air to the space without entrainment of cotaminated air from the occupied space.
-            <br><br>
-            <!-- Beberapa teknologi yang kami satukan tersebut kedepan akan sangat berkaitan dengan perkembangan teknologi dimana dituntut Rumah Sakit harus menyediakan sarana teknologi informasi yang dapat diakses dimanapun dengan berbasis android/gadget. CCL MOT Smart System yang memiliki workshop mekanik dengan peralatan cukup lengap dan dapat memproduksi beberapa jenis perangkat mekanik berbahan staninless steel yang diperlukan dalam sistem tata udara dan Ruang Operasi -->
-          </p>
-          <!-- Harga Produk -->
-          <!-- <h3>Rp 1.500.000</h3> -->
-          
-          <!-- Tombol untuk membeli -->
-           <div>
-            <button class="btn btn-primary btn-custom"><a href="/contact/" style="color: #EFF8FF;">Request a Quote</a></button>
-             <br><br>
-             <a href="../../style/assets/laminar/brosur-pt-cti-lfd-housing-hepa.pdf" target="_blank" class="fw-bold">OPEN BROCHURE (Click to view or download)</a>
-             <br>
-           </div>
-        </div>
+  <div class="row">
+    <div class="d-flex justify-content-between align-items-center my-3">
+      <a onclick="history.back()" class="btn btn-outline-secondary">Back</a>
+    </div>
+
+    <div class="col-md-6">
+      <div class="head-image mb-3">
+        <img id="main-image" src="../../style/assets/laminar/laminar.webp"
+             class="main-image img-fluid border rounded shadow-sm"
+             alt="Laminar Flow Diffuser dengan HEPA untuk area kerja steril">
+      </div>
+      <div class="d-flex">
+        <img src="../../style/assets/laminar/laminar.webp" alt="Laminar diffuser - tampak depan"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/laminar/laminar.webp')">
+        <img src="../../style/assets/laminar/laminar2.webp" alt="Laminar diffuser - detail housing"
+             class="thumbnail-img me-2 border rounded shadow-sm"
+             onclick="changeImage('../../style/assets/laminar/laminar2.webp')">
       </div>
     </div>
 
-    <script>
-      function changeImage(imageSrc) {
-        document.getElementById('main-image').src = imageSrc;
-      }
-    </script>
-    <div class="container mb-5">
-      <div class="row text-center">
-          <p class="fw-bold fs-5 pt-5 pb-3">PRODUCT DETAILS</p>
-          <div class="col-md-6">
-              <img src="../../style/assets/laminar/laminar-details.webp" alt="Fan Filter Unit" class="img-fluid">
-          </div>
-          <div class="col-md-6">
-              <embed src="../../style/assets/laminar/brosur-pt-cti-lfd-housing-hepa.pdf" width="100%" height="700vh" type="application/pdf">
-          </div>
+    <div class="col-md-6">
+      <p class="h2 fw-bolder">LAMINAR FLOW DIFFUSER WITH HEPA FILTER</p>
+      <p class="text-muted fw-bold">FOR CRITICAL ENVIRONMENT</p>
+
+      <p class="lead fs-6 fw-normal mb-3">
+        <strong>Laminar Flow Diffuser (LFD)</strong> menghadirkan aliran udara <em>unidirectional</em> berkecepatan
+        rendah untuk memasok udara bersih tanpa entrainment dari ruang terpakai. Dipadukan dengan
+        <strong>HEPA filter</strong> untuk menjaga konsentrasi partikel sesuai standar ruang bersih & ruang operasi modern.
+      </p>
+
+      <ul class="mb-3">
+        <li><strong>Distribusi aliran merata</strong> untuk area kerja steril & zona proteksi pasien.</li>
+        <li><strong>HEPA-ready</strong> dengan housing kedap, opsi gel seal & port pengujian (opsional).</li>
+        <li><strong>Integrasi HVAC</strong> mudah dengan plenum & ducting; akses servis sederhana.</li>
+        <li><strong>Material higienis</strong> dan permukaan halus untuk pembersihan cepat.</li>
+        <li><strong>Operasi senyap</strong> mendukung kenyamanan tim klinis.</li>
+      </ul>
+
+      <p class="mb-4">
+        Aplikasi: <strong>Ruang Operasi, Cleanroom ISO, Area persiapan aseptik, Laboratorium</strong>.
+      </p>
+
+      <div>
+        <button class="btn btn-primary btn-custom"><a href="/contact/" style="color:#EFF8FF;">Request a Quote</a></button>
+        <br><br>
+        <a href="../../style/assets/laminar/brosur-pt-cti-lfd-housing-hepa.pdf" target="_blank" class="fw-bold">
+          OPEN BROCHURE (Click to view or download)
+        </a>
+        <br>
       </div>
     </div>
+  </div>
+</div>
+
+<script>
+  function changeImage(imageSrc) { document.getElementById('main-image').src = imageSrc; }
+</script>
+
+<div class="container mb-5">
+  <div class="row text-center">
+    <p class="fw-bold fs-5 pt-5 pb-3">PRODUCT DETAILS</p>
+    <div class="col-md-6">
+      <img src="../../style/assets/laminar/laminar-details.webp"
+           alt="Detail Laminar Flow Diffuser dengan HEPA" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <embed src="../../style/assets/laminar/brosur-pt-cti-lfd-housing-hepa.pdf" width="100%" height="700vh" type="application/pdf">
+    </div>
+  </div>
+</div>
+
     <div class="gradient-divider"></div>
 
 <!-- ======================================================================= FOOTER -->
